@@ -5,4 +5,6 @@
 
 # Poetry 使用
 install poetry之後選擇python 3.9.0
--> poetry install
+```python
+poetry install
+```
