@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "5g-network-slicing-rl"
+version = "0.1.0"
+description = ""
+authors = ["顏嘉鈺 <mua0911@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "2.2.1"
+numpy = "^1.26.4"
+tqdm = "^4.66.2"
+matplotlib = "^3.8.3"
+pandas = "^2.2.1"
+scikit-learn = "1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
